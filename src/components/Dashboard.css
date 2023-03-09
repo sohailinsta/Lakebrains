@@ -1,0 +1,124 @@
+.theme {
+    background-color: black;
+  }
+  .dashboardContainer {
+      color: white;
+      background-color: rgb(20, 20, 20); 
+      margin-top: 80px;
+    }
+    .NavbarLogo {
+      margin-left: 25px;
+    }
+    .search-icon {
+      position: absolute;
+      margin-top: 4px;
+      margin-left: 108px;
+    }
+    .search-input {
+      background-color: #423737;
+      color: aliceblue;
+      border-radius: 32.5px;
+      width: 140px;
+      height: 30px;
+      margin-left: 100px;
+      border: 1px solid rgb(76, 68, 68);
+    }
+    input[type="text"]::placeholder {
+      padding-left: 30px;
+      color: aliceblue;
+  }
+  .horiontalLine {
+    border: 1px solid white;
+  }
+  .sectionTitle {
+    font-family: 'Franklin Gothic Medium';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90%;
+  background: linear-gradient(90deg, #3EAFC8 0%, rgba(36, 173, 202, 0) 32.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  }
+  .sectionSubTitle {
+    font-family: 'Franklin Gothic Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90%;
+  color: white;
+  }
+  .sectionText {
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 17px; */
+  line-height: 31px;
+  color: #FFFFFF;
+  }
+  .priceTag {
+    font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 41px;
+  color: #6C6C6C;
+  text-decoration: line-through;
+  }
+  .priceTagTwo {
+    font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 73px;
+  color: white;
+  margin-left: 10px;
+  }
+  .btn-primary {
+    background: linear-gradient(90deg, #40BBD6 0%, rgba(64, 187, 214, 0) 102.88%);
+    font-family: 'Franklin Gothic Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  /* line-height: 31px; */
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  /* border-radius: 12px; */
+  }
+  .sectionLeft {
+    position: relative;
+  }
+  .sectionLeftTitle {
+    background: conic-gradient(from 180deg at 50% 50%, #24AFCD 0deg, rgba(36, 175, 205, 0) 360deg);
+  opacity: 0.5;
+  transform: matrix(0.97, 0.26, -0.26, 0.96, 0, 0);
+  width: 330.86px;
+  height: 325.02px;
+  border-radius: 50%;
+  }
+  .sectionLeftImg {
+    position: absolute;
+      width: 487.72px;
+      height: 307.54px;
+      bottom: 8px;
+      right: 90px;
+  }
+  .sectionLeftRating {
+    width: 110px;
+  height: 45px;
+  background: rgba(60, 66, 65, 0.85);
+  border-radius: 9px;
+  position: absolute;
+  right: 340px;
+  top: 370px;
+  }
+  .sectionRatingStart {
+    color: #F44D1B;
+  }
+  
+  .ratingText {
+    font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  margin-left: 10px;
+  }
